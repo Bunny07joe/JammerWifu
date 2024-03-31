@@ -1,8 +1,8 @@
 dir=$(pwd)
 
-python $dir/setup.py
+python $dir/SET-UP/setup.py
 sudo apt-get install konsole
-mkdir $dir/pyscript/workspace/permnent-files
+mkdir $dir/wifi/pyscript/workspace/permnent-files
 echo ""
 ifconfig
 echo ""
@@ -13,5 +13,5 @@ read interface
 cd ..
 interfaceF=$(pwd)
 
-echo $interface > $interfaceF/pyscript/workspace/NETWORK/interface.txt
+echo $interface > $interfaceF/wifi/pyscript/workspace/NETWORK/interface.txt
 
