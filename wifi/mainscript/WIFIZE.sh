@@ -2,7 +2,7 @@ clear
 cd .. 
 dir=$(pwd)
 echo "TOOL NAME wifize"
-python  $dir/wifi/pyscript/name.py
+sudo python  $dir/wifi/pyscript/name.py
 
 echo -n "you have external wifi adpeter with monitor mode supported y/n :"
 read response 
