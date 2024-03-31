@@ -4,11 +4,10 @@ By using this software, you agree that any illegal activities conducted with it 
 
 Make sure you have Python v3 or Python v2 installed.
 
-// How to run the software:
+// How to run the Tool :
 
 Step 1: Navigate to the "/Wifi" directory.
-Step 2: Navigate to the "/SET-UP" directory.
-Step 3: Run the setup.sh file with the following command:
+Step 2: Run the setup.sh script with the following command: copy and paste below command.
         chmod +x setup.sh && ./setup.sh
 Step 4: Go back to the "/Wifi" directory.
 Step 5: Run the main.py file using Python:
